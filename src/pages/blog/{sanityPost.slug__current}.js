@@ -37,8 +37,8 @@ export default function Posts({ data }) {
 }
 
 export const query = graphql`
-{
-    sanityPost {
+query($id: String){
+    sanityPost(id: {eq: $id}) {
       title
       mainImage {
         asset {
