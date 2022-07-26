@@ -1,0 +1,1 @@
+## New Sanity and Gatsby Boilerplate
