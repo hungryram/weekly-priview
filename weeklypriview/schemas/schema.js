@@ -28,9 +28,12 @@ import headerMenu from "./blocks/headerMenu"
 import mainColors from "./blocks/mainColors"
 import intro from "./blocks/intro"
 import hero from "./blocks/hero"
+import sidebar from "./blocks/sidebar"
 
 //subblocks
 import subMenu from "./subBlocks/subMenu"
+import sidebarPanel from "./subBlocks/sidebarPanel"
+import sidebarBlocks from "./subBlocks/sidebarBlocks"
 
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -65,6 +68,9 @@ export default createSchema({
     subMenu,
     mainColors,
     hero,
-    intro
+    intro,
+    sidebarPanel,
+    sidebarBlocks,
+    sidebar
   ]),
 })

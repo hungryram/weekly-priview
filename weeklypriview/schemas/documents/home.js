@@ -13,5 +13,10 @@ export default {
             name: 'intro',
             type: 'intro'
         },
+        {
+            title: 'Sidebar',
+            name: 'mainSidebar',
+            type: 'sidebar'
+        }
     ]
 }

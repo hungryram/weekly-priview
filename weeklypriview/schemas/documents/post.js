@@ -60,6 +60,12 @@ export default {
       type: 'datetime',
     },
     {
+      name: 'excerpt',
+      title: 'Excerpt',
+      type: 'text',
+      description: 'A short description about your blog to capture audience'
+    },
+    {
       name: 'body',
       title: 'Body',
       type: 'blockContent',

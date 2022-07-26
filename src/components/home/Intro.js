@@ -6,7 +6,7 @@ export default function Intro({ text, image, altTag }) {
     return (
         <>
             <div className="section mt-2 py-10 md:px-20" style={{
-                backgroundColor: '#FFD0F8'
+                backgroundColor: '#E8CEB3'
             }}>
                 <div className="container">
                 <div className="md:flex items-center gap-20 justify-center">

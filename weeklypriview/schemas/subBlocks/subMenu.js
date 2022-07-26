@@ -13,7 +13,7 @@ export default {
         {
             name: "text",
             type: "string",
-            title: "Navigation Text",
+            title: "Link Text",
             validation: Rule => Rule.required().error('Name your menu item'),
           },
           {
